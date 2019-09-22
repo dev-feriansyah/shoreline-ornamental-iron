@@ -66,7 +66,7 @@
           </div>
 
           <!-- close on click anywhere -->
-          <button v-show="dropdownOpen" @click="dropdownOpen = false" class="hidden md:block md:fixed md:inset-0 md:h-full md:w-full md:z-20">
+          <button v-show="dropdownOpen" @click="dropdownOpen = false" class="hidden focus:outline-none md:block md:fixed md:inset-0 md:h-full md:w-full md:z-20">
           </button>
 
         </div>
